@@ -1,0 +1,11 @@
+function re=Marque (j, biao)% Judging whether the J point has been marked
+    l=length(biao);
+    for i=1:l
+       if j==biao(i) 
+            re=1;
+            return;
+       end
+    end
+    re=0;
+    return;
+end
